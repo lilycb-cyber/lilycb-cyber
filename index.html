@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <title>UNC Gardening Club</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+
+                <input type="checkbox" id="menu-toggle">
+
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="#Home">UNC Gardening Club</a>
+
+                    <label for="menu-toggle" class="navbar-burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="#Home">Home</a>
+                        <a class="navbar-item" href="#About">About</a>
+                        <a class="navbar-item" href="#Events">Events</a>
+                        <a class="navbar-item" href="#Form">Join Us</a>
+                        <a class="navbar-item" href="#Gallery">Gallery</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="section" id="Home">
+                <div class="home-boxes">
+                    <div class="content welcome-box">
+                        <h1>Welcome to the UNC Gardening Club!</h1>
+                        <p>Encouraging new members to join today.</p>
+
+                        <a class="button is-primary" href="#About">
+                            Learn More About Us
+                        </a>
+                    </div>
+
+                    <div class="mail-list">
+                        <h2 class="title has-text-centered">
+                            Join our mailing list!
+                        </h2>
+
+                        <form>
+                            <label for="yourname">Your Name:</label>
+                            <input type="text" id="yourname" name="yourname" required>
+
+                            <br><br>
+
+                            <label for="email">Your Email:</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <br><br>
+
+                            <button type="submit" class="form-button">Submit</button>
+                            <button type="reset" class="form-button">Reset</button>
+                        </form>
+                    </div>
+
+                </div>
+
+            </section>
+                <div class="content">
+                    <div class="column">
+                        <img src="images/garden2.jpg" alt="Plants growing in one of our gardens">
+                    </div>
+                    <br>
+                
+                    <p>Grow your green thumb with us! 
+                    Expand your knowledge of plants and gardening techniques, 
+                    meet new people, and discover the joy of cultivating a beautiful garden. 
+                    Join us as we explore the wonderful world of plants and nature on our gorgeous campus.
+                    We have numerous campus gardens with some including edible plants for any to enjoy!</p>
+            
+                    <a class="button is-success" href="#Form">
+                        Click here to complete the interest form for our club!
+                    </a>
+                </div>
+                <div class="notification is-info" id="Events">
+                    <strong>Upcoming Events!</strong>
+                    Join us for our next gardening club meeting! More details coming soon. 
+                </div>
+
+                <div class="columns" id="About">
+                <div class="column">
+                    <h3>Our Story</h3>
+                    <br>
+                    The UNC Gardening Club was founded in 2010 by a group of passionate students 
+                    who wanted to create a community for gardening enthusiasts on campus. 
+                    Since then, we have grown into a vibrant club that welcomes students from all backgrounds and skill levels. 
+                    Our members share a love for plants, sustainability, and the joy of gardening.  
+                </div>
+                <br>
+                <div class="column">
+                    <h3>Our Goals</h3>
+                    <br>
+                    Our goal is to promote gardening and sustainability on campus, 
+                    while also providing a fun and educational experience for our members. 
+                    We welcome anyone who is passionate about gardening and environmental awareness.
+                </div>
+                <br>
+                <div class="column">
+                    <h3>What We Do</h3>
+                    <br>
+                    We organize regular gardening workshops, plant swaps, and community service projects.
+                    Our members also have the opportunity to participate in campus garden maintenance and beautification projects. 
+                    We believe that gardening is not only a rewarding hobby, but also a way to connect with nature and promote a sustainable future.
+                </div>
+        </div>
+
+            </section>
+
+            <section class="section garden-gallery" id="Gallery">
+                <h2 class="title has-text-centered">Explore Our Garden Gallery</h2>
+
+                <p class="has-text-centered">Discover the beauty of our campus gardens through our gallery of images.</p>
+                <br><br>
+                <div class="columns">
+                    <div class="column">
+                        <img src="images/garden1.jpg" alt="Some of our club members in the garden">
+                    </div>
+                    <div class="column">
+                        <img src="images/garden3.jpg" alt="One of our beautiful edible gardens">
+                    </div>
+                    <div class="column">
+                        <img src="images/garden4.jpg" alt="More of our members hard at work">
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="Form">
+                <div class="join-form" id="#Form">
+                    <h2 class="title has-text-centered"> Interested in Joining? </h2>
+
+                    <p class="has-text-centered">
+                        Fill out the form below to let us know
+                        you're interested in becoming a member!
+                    </p>
+                    <br>
+                    <form>
+
+                        <label for="fullname">Full Name:</label>
+
+                        <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required>
+            
+                        <br><br>
+                
+                        <label for="email">UNC Email Adress:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter you UNC email" required>
+                        
+                        <br><br>
+                        
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age" min="16" placeholder="Must be at least 16" required>
+                        
+                        <br><br>
+                        
+                        
+                        <label for="year">What year are you?</label>
+                        <select id="year" name="year">
+                            <option>First Year</option>
+                            <option>Sophomore</option>
+                            <option>Junior</option>
+                            <option>Senior</option>
+                            <option>Graduate Student</option>
+                        </select>
+                        
+                        <br><br>
+                        
+                        <fieldset>
+                            <legend>How would you prefer to participate?</legend>
+                            
+                            <input type="radio" id="inperson" name="participation" value="In Person">
+                            <label for="inperson">In Person</label>
+                        
+                            <br>
+                        
+                            <input type="radio" id="online" name="participation" value="Online">
+                            <label for="online">Online</label>
+                        
+                            <br>
+                        
+                            <input type="radio" id="both" name="participation" value="Both">
+                            <label for="both">Both</label>
+                            
+                        </fieldset>
+                        
+                        <br>
+
+                        <fieldset>
+                            <legend>Select your interests:</legend>
+                        
+                            <input type="checkbox" id="planting" name="interests" value="planting">
+                            <label for="planting">Planting</label>
+                        
+                            <br>
+                        
+                            <input type="checkbox" id="harvesting" name="interests" value="Harvesting">
+                            <label for="harvesting">Harvesting</label>
+                        
+                            <br>
+                        
+                            <input type="checkbox" id="meeting" name="interests" value="meeting">
+                            <label for="meeting">Meeting new people</label>
+                        
+                            <br>
+                        
+                            <input type="checkbox" id="community" name="interests" value="Community">
+                            <label for="community">Community Service</label>
+                        
+                        </fieldset>
+                        
+                        <br><br>
+                        
+                        <label for="message">Why do you want to join</label>
+                        
+                        <br>
+                        
+                        <textarea id="message" name="message" rows="6" cols="40"></textarea>
+                        
+                        <br><br>
+
+                        <label for="more">Tell us about yourself</label>
+
+                        <br>
+
+                        <textarea id="message" name="message" rows="6" cols="40"></textarea>
+
+                        <br><br>
+                        
+                        <button type="submit" class="form-button">Submit Interest Form</button>
+                        
+                        <button type="reset" class="form-button">Start Over</button>
+                    </form>
+
+                </div>
+
+            </section>
+        </main> 
+        
+        <footer>
+            <p>&copy;UNC Gardening Club | Growing Together</p>
+            <p>University of North Carolina at Chapel Hill</p>
+        </footer>
+    </body>
+
+</html>
